@@ -11,7 +11,7 @@ app.use(express.json());
 
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://zerodha-clone:12345@wanderlust.18okj.mongodb.net/?retryWrites=true&w=majority&appName=wanderlust', {
+mongoose.connect('mongodb+srv://zerodha-clone:@wanderlust.18okj.mongodb.net/?retryWrites=true&w=majority&appName=wanderlust', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
